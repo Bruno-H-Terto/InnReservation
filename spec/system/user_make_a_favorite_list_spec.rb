@@ -15,4 +15,10 @@ describe 'User make a favorite list', type: :system do
     expect(page).to have_content 'Natureza'
     expect(page).to have_content 'Viagens'
   end
+
+  it 'and add new list' do
+    user = create(:user)
+
+    login_as user, scope: :user
+  end
 end
