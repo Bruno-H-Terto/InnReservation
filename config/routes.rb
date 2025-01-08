@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   root 'home#index'
+  resources :favorite_lists, only: %i[index]
 end

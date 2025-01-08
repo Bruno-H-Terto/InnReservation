@@ -1,3 +1,11 @@
 <div>
   <h2>Reserve agora seu quarto</h2>
 </div>
+
+<% if @inns %>
+  <% @inns.each do |inn| %>
+    <%= inn.name %>
+  <% end %>
+<% else %>
+  <p>Sem Pousadas disponíveis</p>
+<% end %>
