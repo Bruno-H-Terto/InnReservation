@@ -10,5 +10,4 @@ AllCops:
   Exclude:
     - 'node_modules/**/*'
     - 'vendor/**/*'
-    - 'config/initializers/devise.rb'
-    - 'config/initializers/assets.rb'
+    - 'config/initializers/*'

@@ -20,5 +20,14 @@ describe 'User make a favorite list', type: :system do
     user = create(:user)
 
     login_as user, scope: :user
+    visit root_path
+    click_on 'Meus favoritos'
+    click_on 'Nova lista'
+    fill_in 'Rótulo', with: 'Lembranças 2024'
+    click_on 'Criar Lista'
+
+    expect(page).to have_content 'Lista "Lembranças 2024" criada com sucesso!'
+    expect(page).to have_content 'Listas'
+    expect(page).to have_content '1 Lembranças 2024'
   end
 end
