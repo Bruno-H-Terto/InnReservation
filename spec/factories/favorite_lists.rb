@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :favorite_list do
-    user { nil }
+    user
     name { "MyString" }
   end
 end

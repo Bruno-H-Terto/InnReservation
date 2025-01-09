@@ -8,12 +8,12 @@ class Inn
   def self.all
     begin
       inns = []
-      response = Faraday.get('http://localhost:4000')
+      response = Faraday.get("http://localhost:4000")
 
       if response.status == 200
         json_response = JSON.parse(response.body)
         json_response.each do |inn|
-          inns << Inn.new(name: inn['name'])
+          inns << Inn.new(name: inn["name"])
         end
       end
 

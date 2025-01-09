@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users, controllers: {
-    sessions: 'users/sessions',
-    registrations: 'users/registrations'
+    sessions: "users/sessions",
+    registrations: "users/registrations"
   }
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -16,6 +16,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  root 'home#index'
+  root "home#index"
   resources :favorite_lists, only: %i[index]
 end
