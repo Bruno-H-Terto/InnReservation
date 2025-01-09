@@ -1,5 +1,6 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
+
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 # Prevent database truncation if the environment is production
@@ -8,7 +9,13 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 # that will avoid rails generators crashing because migrations haven't been run yet
 # return unless Rails.env.test?
 require 'rspec/rails'
-
+require 'simplecov'
+SimpleCov.start 'rails' do
+  add_filter 'app/controllers/users/confirmations_controller.rb'
+  add_filter 'app/controllers/users/omniauth_callbacks_controller.rb'
+  add_filter 'app/controllers/users/passwords_controller.rb'
+  add_filter 'app/controllers/users/unlocks_controller.rb'
+end
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in

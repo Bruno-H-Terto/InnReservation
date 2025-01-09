@@ -1,0 +1,223 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/bh/Vivencia/InnReservation/app/models/favorite_list.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/bh/Vivencia/InnReservation/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/bh/Vivencia/InnReservation/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/bh/Vivencia/InnReservation/app/models/inn.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          8,
+          null,
+          null,
+          1,
+          null,
+          6,
+          6,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null,
+          null,
+          1,
+          null,
+          4,
+          null,
+          1,
+          null,
+          5,
+          null,
+          null
+        ]
+      },
+      "/home/bh/Vivencia/InnReservation/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          1,
+          7,
+          null,
+          7,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/bh/Vivencia/InnReservation/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/bh/Vivencia/InnReservation/app/controllers/favorite_lists_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/home/bh/Vivencia/InnReservation/app/controllers/users/registrations_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/bh/Vivencia/InnReservation/app/controllers/users/sessions_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {}
+      },
+      "/home/bh/Vivencia/InnReservation/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {}
+      },
+      "/home/bh/Vivencia/InnReservation/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {}
+      },
+      "/home/bh/Vivencia/InnReservation/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
+      }
+    },
+    "timestamp": 1736411398
+  }
+}
